@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/order.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body bgcolor="black">
+
+    <form action="/get/placeOrder" method="post">
+<div class="center"><br>
+    <h1>Order Details</h1>
+    <form>
+        <div class="textFields">
+            <input type="text" name="ConfirmItemName" required>
+            <span></span>
+            <label>Confirm item Name</label>
+        </div>
+
+    
+            <div class="textFields">
+                <input type="number" name="quantity" required>
+                <span></span>
+                <label>quantity</label>
+            </div>
+
+            <div class="textFields">
+                <input type="text" name="Address" required>
+                <span></span>
+                <label>Address</label>
+            </div>
+
+            <div class="textFields">
+                <input type="text" name="City" required>
+                <span></span>
+                <label>City</label>
+            </div>
+
+            <div class="textFields">
+                <input type="number" name="pinCode" required>
+                <span></span>
+                <label>pin Code</label>
+            </div>
+
+            <input type="submit" value="order now">   
+</form>
+</div>
+</body>
